@@ -7,8 +7,14 @@
     <label for="description">Description</label>
     <input type="text" name="description" id="description" value="{{$product->description}}">
     <br>
-    <label for="year">Year</label>
+    <label for="price">Year</label>
     <input type="text" name="year" id="year" value="{{$product->year}}">
+    <br>
+    <label for="year">Price</label>
+    <input type="text" name="price" id="price" value="{{$product->price}}">
+    <br>
+    <label for="quantity">Qunatity</label>
+    <input type="text" name="quantity" id="quantity" value="{{$product->quantity}}">
     <br>
     <label for="category_id">Category</label>
     <select name="category_id" id="category_id">

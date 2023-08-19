@@ -3,7 +3,7 @@
         <th>Id</th>
         <th>Title</th>
         <th>Price</th>
-        <th>quantity</th>
+        <th>Quantity</th>
         <th>Description</th>
         <th>Year</th>
         <th>Category</th>
@@ -14,8 +14,8 @@
         <tr>
             <td>{{ $product->id }}</td>
             <td>{{ $product->title }}</td>
-            <td>({ $product->price})</td>
-            <td>({ $product->quantity})</td>
+            <td>{{ $product->price}}</td>
+            <td>{{ $product->quantity}}</td>
             <td>{{ $product->description }}</td>
             <td>{{ $product->year }}</td>
             <td><a href="/categories/{{$product->category->id}}">{{ $product->category->name }}</a></td>
@@ -35,3 +35,5 @@
         </tr>
     @endforeach
 </table>
+<a href =../products/create> <button>Create</button>
+<a>

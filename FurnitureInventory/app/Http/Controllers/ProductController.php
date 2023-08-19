@@ -39,6 +39,8 @@ class ProductController extends Controller
         $product = new Product();
         $product->title = $request->title;
         $product->description = $request->description;
+        $product->price = $request->price;
+        $product->quantity = $request->quantity;
         
         if ($request->hasFile('image')) {
             $product->image = $request->file('image')->store('public/images');
@@ -80,6 +82,8 @@ class ProductController extends Controller
         $product = Product::find($id);
         $product->title = $request->title;
         $product->description = $request->description;
+        $product->price = $request->price;
+$product->quantity = $request->quantity;
         if ($request->hasFile('image')) {
             $product->image = $request->file('image')->store('public/images');
         }

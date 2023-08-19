@@ -1,10 +1,16 @@
-<form action="/books" method="post" enctype="multipart/form-data">
+<form action="/products" method="post" enctype="multipart/form-data">
     @csrf
     <label for="title">Title</label>
     <input type="text" name="title" id="title">
     <br>
     <label for="description">Description</label>
     <input type="text" name="description" id="description">
+    <br>
+    <label for="price">Price</label>
+    <input type="text" name="price" id="price">
+    <br>
+    <label for="quantity">Quantity</label>
+    <input type="text" name="quantity" id="quantity">
     <br>
     <label for="image">Image</label>
     <input type="file" name="image" id="image">
