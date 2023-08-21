@@ -1,3 +1,7 @@
+
+@extends('layouts.app')
+@section('title','Furniture Index')
+@section('main')
 <form action="/products/{{ $product->id }}" method="post">
     @method('PUT')
     @csrf
@@ -31,3 +35,4 @@
     </select>
     <input type="submit" value="Edit">
 </form>
+@endsection

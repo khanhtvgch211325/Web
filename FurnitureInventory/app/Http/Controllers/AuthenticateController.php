@@ -49,7 +49,7 @@ class AuthenticateController extends Controller
         
         $credentials = $request->only('name', 'email', 'password');
         auth()->attempt($credentials);
-        return redirect('/product');
+        return redirect('/products');
     }
 
     public function logout(Request $request): RedirectResponse

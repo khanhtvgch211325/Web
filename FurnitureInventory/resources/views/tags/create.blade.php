@@ -1,3 +1,7 @@
+
+@extends('layouts.app')
+@section('title','Furniture Index')
+@section('main')
 <form action="/tags" method="post">
     @csrf
     <label for="name">Name</label>
@@ -5,3 +9,4 @@
     <br>
     <input type="submit" value="Create">
 </form>
+@endsection

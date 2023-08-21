@@ -1,3 +1,7 @@
+
+@extends('layouts.app')
+@section('title','Furniture Index')
+@section('main')
 <form action="/tags/{{ $tag->id }}" method="post">
     @method('PUT')
     @csrf
@@ -6,3 +10,4 @@
     <br>
     <input type="submit" value="Edit">
 </form>
+@endsection

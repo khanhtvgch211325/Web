@@ -1,3 +1,7 @@
+
+@extends('layouts.app')
+@section('title','Furniture Index')
+@section('main')
 {{$category->id}}<br>
 {{$category->name}}<br>
 <table>
@@ -14,3 +18,4 @@
         </tr>
     @endforeach
 </table>
+@endsection

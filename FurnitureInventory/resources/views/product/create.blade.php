@@ -1,3 +1,7 @@
+
+@extends('layouts.app')
+@section('title','Furniture Index')
+@section('main')
 <form action="/products" method="post" enctype="multipart/form-data">
     @csrf
     <label for="title">Title</label>

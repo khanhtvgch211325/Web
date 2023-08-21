@@ -1,9 +1,13 @@
-<table style="border:1px solid">
+
+@extends('layouts.app')
+@section('title','Furniture Index')
+@section('main')
+<table style="border:1px solid ;text-align:center; " class="col-lg-12   ">
     <tr style="border:1px solid">
         <th>Id</th>
         <th>Title</th>
         <th>Price</th>
-        <th>Quantity</th>
+        <th>quantity</th>
         <th>Description</th>
         <th>Year</th>
         <th>Category</th>
@@ -35,5 +39,7 @@
         </tr>
     @endforeach
 </table>
-<a href =../products/create> <button>Create</button>
-<a>
+<a href="/products/create" class="btn btn-success">Add product</a>
+<a href="/categories/create" class="btn btn-success">Add Category</a>
+<a href="/tags/create" class="btn btn-success">Add Tags</a>
+@endsection
