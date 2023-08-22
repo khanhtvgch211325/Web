@@ -21,6 +21,9 @@ class CategoryController extends Controller
      */
     public function create()
     {
+        if (!auth()->check()) {
+            return redirect('/login');
+        }
         return view('categories.create');
     }
 

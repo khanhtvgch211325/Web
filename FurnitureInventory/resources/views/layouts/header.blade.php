@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Funiture Project</a>
+      <a class="navbar-brand" href="/products">Home</a>
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,10 @@
                   </div>
               </li>
           </ul>
-          <form class="d-flex my-2 my-lg-0">
-              <input class="form-control me-sm-2" type="text" placeholder="Search">
+          <!-- <form action="" class="d-flex my-2 my-lg-0">
+              <input class="form-control me-sm-2" type="text" placeholder="Search by Title" name="key">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          </form> -->
       </div>
 </div>
 </nav>
