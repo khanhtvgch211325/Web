@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Show Categories')
 @section('main')
 {{$category->id}}<br>
 {{$category->name}}<br>

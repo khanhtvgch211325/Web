@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Edit Tag')
 @section('main')
 <form action="/tags/{{ $tag->id }}" method="post">
     @method('PUT')

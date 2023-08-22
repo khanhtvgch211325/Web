@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Create Funiture')
 @section('main')
 <form action="/products" method="post" enctype="multipart/form-data" class="table table-striped">
     @csrf

@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Edit Category')
 @section('main')
 <form action="/categories/{{ $category->id }}" method="post">
     @method('PUT')

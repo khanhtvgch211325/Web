@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Tag Index')
 @section('main')
 <table style="border:1px solid">
     <tr style="border:1px solid">

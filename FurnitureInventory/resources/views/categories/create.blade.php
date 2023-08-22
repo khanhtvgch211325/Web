@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Create Category')
 @section('main')
 <form action="/categories" method="post">
     @csrf

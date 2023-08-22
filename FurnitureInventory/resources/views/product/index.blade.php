@@ -41,7 +41,7 @@
     @endforeach
 </table>
 <div style="position: absolute;
-    right: 0%; ">
+    right: 10%; ">
     <a href="/products/create" class="btn btn-success">Add product</a>
     <a href="/categories/create" class="btn btn-success">Add Category</a>
     <a href="/tags/create" class="btn btn-success">Add Tags</a>

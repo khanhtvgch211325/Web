@@ -1,6 +1,6 @@
 
 @extends('layouts.app')
-@section('title','Furniture Index')
+@section('title','Create Tag')
 @section('main')
 <form action="/tags" method="post">
     @csrf

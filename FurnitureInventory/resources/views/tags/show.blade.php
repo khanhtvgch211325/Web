@@ -1,3 +1,6 @@
+@extends('layouts.app')
+@section('title','Create Tag')
+@section('main')
 {{$tag->id}}<br>
 {{$tag->name}}<br>
 <table>
@@ -14,3 +17,4 @@
         </tr>
     @endforeach
 </table>
+@endsection
