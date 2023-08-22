@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title','Furniture Index')
 @section('main')
+<img src="https://luxfuni.vn/wp-content/uploads/2022/03/slide-1-1920x840.jpg" height="440" width="1920" alt="" class="slider-515 slide-1253" title="slide-1" draggable="false">
 <table style="border:1px solid ;text-align:center; " class="col-lg-12  table table-striped ">
     <tr style="border:1px solid">
         <th>Id</th>
