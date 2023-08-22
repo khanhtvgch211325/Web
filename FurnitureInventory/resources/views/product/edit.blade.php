@@ -2,7 +2,7 @@
 @extends('layouts.app')
 @section('title','Furniture Index')
 @section('main')
-<form action="/products/{{ $product->id }}" method="post">
+<form action="/products/{{ $product->id }}" method="post" class="table table-striped">
     @method('PUT')
     @csrf
     <label for="title">Title</label>

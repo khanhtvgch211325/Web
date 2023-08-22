@@ -44,7 +44,7 @@ class ProductController extends Controller
         
         if ($request->hasFile('image')) {
             $product->image = $request->file('image')->store('public/images');
-            $product->image = env('APP_URL').str_replace('public/', '/upload/', $product->image);
+            $product->image = str_replace('public/', '/upload/', $product->image);
         }
         
         $product->year = $request->year;
