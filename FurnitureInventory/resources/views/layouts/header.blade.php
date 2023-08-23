@@ -10,20 +10,21 @@
                 <li class="nav-item">
                 <a href="/login" class="btn btn-outline-success my-2 my-sm-0">Login</a>
                 </li>
-
+                <li class="nav-item">
+                <a href="/register" class="btn btn-outline-secondary my-2 my-sm-0" style="margin-left: 20px;">Register</a>
+                </li>
 
             </ul>
-            <form class="d-flex my-2 my-lg-0">
-               
-                <li class="nav-item btn btn-outline-danger my-2 my-sm-0">
-                    <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                        <i class="fas fa-sign-out-alt"></i> Logout
-                    </a>
-                    <form id="logout-form" action="{{ route('logout') }}" method="GET" style="display: none;">
-                        @csrf
-                    </form>
-                </li>
-            </form>
+          <div class="btn btn-outline-secondary">
+              <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                  <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+              <form id="logout-form" action="{{ route('logout') }}" method="GET" >
+                  @csrf
+              </form>
+              </div>
+         
+            
         </div>
     </div>
 </nav>

@@ -1,7 +1,12 @@
 @extends('layouts.app')
 @section('title','Furniture Index')
 @section('main')
-<img src="https://luxfuni.vn/wp-content/uploads/2022/03/slide-1-1920x840.jpg" height="440" width="1920" alt="" class="slider-515 slide-1253" title="slide-1" draggable="false">
+<img src="https://luxfuni.vn/wp-content/uploads/2022/03/slide-1-1920x840.jpg" height="440" width="1920" alt="">
+<h1 style="text-align:center">WELCOME TO FUNITURE INVENTORY WEBSITE</h1>
+<p style="text-align:center">
+    The products available at Funirure Inventory are 100% imported. With more than 15 years of operation in the field of furniture import,
+</br> Tooi combines with reputable and experienced factories to help meet all the needs of customers, from the smallest things.</p>
+
 <table style="border:1px solid ;text-align:center; " class="col-lg-12  table table-striped ">
     <tr style="border:1px solid">
         <th>Id</th>
@@ -49,7 +54,3 @@
 </div>
 
 @endsection
-
-
-
-        
