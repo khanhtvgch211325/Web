@@ -2,7 +2,7 @@
 @extends('layouts.app')
 @section('title','Tag Index')
 @section('main')
-<table style="border:1px solid">
+<table style="border:1px solid"  class="col-lg-12  table table-striped ">
     <tr style="border:1px solid">
         <th>Id</th>
         <th>Name</th>

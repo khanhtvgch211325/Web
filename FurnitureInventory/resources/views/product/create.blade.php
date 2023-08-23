@@ -36,7 +36,7 @@
             <option value="{{$tag->id}}">{{$tag->name}}</option>
         @endforeach
     </select>
-    <input type="submit" value="Create">
+    <input class="btn btn-primary"  type="submit" value="Create">
     </div>
 </form>
 @endsection
