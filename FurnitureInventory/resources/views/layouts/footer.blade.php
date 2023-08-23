@@ -1,6 +1,5 @@
 
-<div class="container" style="position: absolute;
-    bottom: -10%;">
+<div class="container" style=" margin-top:200px">
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
   <div class="container">
     <div class="row">

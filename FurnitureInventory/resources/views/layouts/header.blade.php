@@ -13,6 +13,14 @@
               <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
               </li>
+              <li class="nav-item">
+              <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                  <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+              <form id="logout-form" action="{{ route('logout') }}" method="GET" style="display: none;">
+                  @csrf
+              </form>
+          </li>
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownId">
